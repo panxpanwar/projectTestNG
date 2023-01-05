@@ -5,19 +5,11 @@
     <listener class-name="Util.MyListener"/>
   </listeners>
   <test thread-count="5" name="Test(failed)">
+    <parameter name="myName" value="Pankaj"/>
     <classes>
-      <class name="TestCase.DetailPageTest">
-        <methods>
-          <include name="setUp"/>
-          <include name="openBrowser"/>
-          <include name="detailPageTest"/>
-          <include name="closeBrowser"/>
-        </methods>
-      </class> <!-- TestCase.DetailPageTest -->
       <class name="TestCase.HomePageTest">
         <methods>
           <include name="setUp"/>
-          <include name="hpTestTwo"/>
           <include name="openBrowser"/>
           <include name="homePageTest"/>
           <include name="closeBrowser"/>

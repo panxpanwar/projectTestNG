@@ -1,51 +1,89 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="1" total="4" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-11-18T21:19:36 HKT" name="Suite" finished-at="2022-11-18T21:20:18 HKT" duration-ms="41863">
+  <suite started-at="2023-01-05T15:18:02 GMT-05:00" name="Suite" finished-at="2023-01-05T15:18:40 GMT-05:00" duration-ms="37458">
     <groups>
     </groups>
-    <test started-at="2022-11-18T21:19:36 HKT" name="Test" finished-at="2022-11-18T21:20:18 HKT" duration-ms="41863">
-      <class name="TestCase.DetailPageTest">
-        <test-method is-config="true" signature="openBrowser()[pri:0, instance:TestCase.DetailPageTest@7bab3f1a]" started-at="2022-11-18T21:20:08 HKT" name="openBrowser" finished-at="2022-11-18T21:20:17 HKT" duration-ms="9253" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- openBrowser -->
-        <test-method signature="detailPageTest()[pri:1, instance:TestCase.DetailPageTest@7bab3f1a]" started-at="2022-11-18T21:20:17 HKT" name="detailPageTest" finished-at="2022-11-18T21:20:17 HKT" duration-ms="416" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- detailPageTest -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:TestCase.DetailPageTest@7bab3f1a]" started-at="2022-11-18T21:20:17 HKT" name="closeBrowser" finished-at="2022-11-18T21:20:18 HKT" duration-ms="200" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeBrowser -->
-      </class> <!-- TestCase.DetailPageTest -->
+    <test started-at="2023-01-05T15:18:02 GMT-05:00" name="Test" finished-at="2023-01-05T15:18:40 GMT-05:00" duration-ms="37458">
       <class name="TestCase.HomePageTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:TestCase.HomePageTest@31fa1761]" started-at="2022-11-18T21:19:36 HKT" name="setUp" finished-at="2022-11-18T21:19:36 HKT" duration-ms="263" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:TestCase.HomePageTest@47e2e487]" started-at="2023-01-05T15:18:02 GMT-05:00" name="setUp" finished-at="2023-01-05T15:18:03 GMT-05:00" duration-ms="305" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="openBrowser()[pri:0, instance:TestCase.HomePageTest@31fa1761]" started-at="2022-11-18T21:19:36 HKT" name="openBrowser" finished-at="2022-11-18T21:19:52 HKT" duration-ms="15671" status="PASS">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:TestCase.HomePageTest@47e2e487]" started-at="2023-01-05T15:18:03 GMT-05:00" name="openBrowser" finished-at="2023-01-05T15:18:12 GMT-05:00" duration-ms="8893" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method signature="homePageTest()[pri:0, instance:TestCase.HomePageTest@31fa1761]" started-at="2022-11-18T21:19:52 HKT" name="homePageTest" finished-at="2022-11-18T21:19:53 HKT" duration-ms="803" status="PASS">
+        <test-method signature="homePageTest(java.lang.String)[pri:0, instance:TestCase.HomePageTest@47e2e487]" started-at="2023-01-05T15:18:12 GMT-05:00" name="homePageTest" data-provider="myDp" finished-at="2023-01-05T15:18:13 GMT-05:00" duration-ms="1044" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2nd UserName]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- homePageTest -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:TestCase.HomePageTest@31fa1761]" started-at="2022-11-18T21:19:53 HKT" name="closeBrowser" finished-at="2022-11-18T21:19:53 HKT" duration-ms="275" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:TestCase.HomePageTest@47e2e487]" started-at="2023-01-05T15:18:13 GMT-05:00" name="closeBrowser" finished-at="2023-01-05T15:18:14 GMT-05:00" duration-ms="483" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="openBrowser()[pri:0, instance:TestCase.HomePageTest@31fa1761]" started-at="2022-11-18T21:19:53 HKT" name="openBrowser" finished-at="2022-11-18T21:20:07 HKT" duration-ms="13717" status="PASS">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:TestCase.HomePageTest@47e2e487]" started-at="2023-01-05T15:18:14 GMT-05:00" name="openBrowser" finished-at="2023-01-05T15:18:21 GMT-05:00" duration-ms="7109" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method signature="hpTestTwo()[pri:0, instance:TestCase.HomePageTest@31fa1761]" started-at="2022-11-18T21:20:07 HKT" name="hpTestTwo" finished-at="2022-11-18T21:20:07 HKT" duration-ms="940" status="PASS">
+        <test-method signature="homePageTest(java.lang.String)[pri:0, instance:TestCase.HomePageTest@47e2e487]" started-at="2023-01-05T15:18:21 GMT-05:00" name="homePageTest" data-provider="myDp" finished-at="2023-01-05T15:18:21 GMT-05:00" duration-ms="544" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2 Pankaj]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePageTest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:TestCase.HomePageTest@47e2e487]" started-at="2023-01-05T15:18:21 GMT-05:00" name="closeBrowser" finished-at="2023-01-05T15:18:21 GMT-05:00" duration-ms="228" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:TestCase.HomePageTest@47e2e487]" started-at="2023-01-05T15:18:21 GMT-05:00" name="openBrowser" finished-at="2023-01-05T15:18:30 GMT-05:00" duration-ms="8823" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="homePageTest(java.lang.String)[pri:0, instance:TestCase.HomePageTest@47e2e487]" started-at="2023-01-05T15:18:30 GMT-05:00" name="homePageTest" data-provider="myDp" finished-at="2023-01-05T15:18:31 GMT-05:00" duration-ms="940" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2nd Singh]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePageTest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:TestCase.HomePageTest@47e2e487]" started-at="2023-01-05T15:18:31 GMT-05:00" name="closeBrowser" finished-at="2023-01-05T15:18:32 GMT-05:00" duration-ms="280" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:TestCase.HomePageTest@47e2e487]" started-at="2023-01-05T15:18:32 GMT-05:00" name="openBrowser" finished-at="2023-01-05T15:18:39 GMT-05:00" duration-ms="6999" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="hpTestTwo(java.lang.String)[pri:0, instance:TestCase.HomePageTest@47e2e487]" started-at="2023-01-05T15:18:39 GMT-05:00" name="hpTestTwo" finished-at="2023-01-05T15:18:40 GMT-05:00" duration-ms="1047" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Pankaj]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- hpTestTwo -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:TestCase.HomePageTest@31fa1761]" started-at="2022-11-18T21:20:07 HKT" name="closeBrowser" finished-at="2022-11-18T21:20:08 HKT" duration-ms="290" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:TestCase.HomePageTest@47e2e487]" started-at="2023-01-05T15:18:40 GMT-05:00" name="closeBrowser" finished-at="2023-01-05T15:18:40 GMT-05:00" duration-ms="263" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->

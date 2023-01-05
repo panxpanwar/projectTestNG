@@ -14,6 +14,7 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeTest;
 
 import Util.CaptureScreen;
+import Util.ExcelData;
 import Util.MyReport;
 
 
@@ -22,9 +23,11 @@ public class Base {
 	public static WebDriver driver;
 	private String driverPath =  System.getProperty("user.dir")+"/src/WebDriver/chromedriver.exe"; 	
 	private String url = "https://www.worldometers.info/world-population/"; //"https://www.worldometers.info/world-population/";
+	private String excelPath = System.getProperty("user.dir")+"/src/TestData/TestData.xlsx";
 
 	public static MyReport myReport;
 	public static CaptureScreen scn;
+	public static ExcelData getExcel;
 	
 	@BeforeMethod
 	public void  openBrowser() throws InterruptedException {
@@ -47,5 +50,12 @@ public class Base {
 		myReport=new MyReport();
 		scn = new CaptureScreen();
 	}
+	
+	public void getExcelBase() {
+//		System.out.println(excelPath);
+		getExcel = new ExcelData(excelPath);
+		
+
+		}
 
 }

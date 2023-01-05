@@ -5,9 +5,10 @@
 		<listener class-name="Util.MyListener" />
 	</listeners>
 	<test thread-count="5" name="Test">
+	<parameter name = "myName" value ="Pankaj"/>
 		<classes>
 			<class name="TestCase.HomePageTest" />
-			<class name="TestCase.DetailPageTest" />
+	<!--     	<class name="TestCase.DetailPageTest" /> -->
 		</classes>
 	</test> <!-- Test -->
 </suite> <!-- Suite -->
